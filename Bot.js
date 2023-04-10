@@ -16,7 +16,7 @@ let { prefix, token }= require('./botconfig.json');
 
 // Если бот запущен ...
 bot.on('ready', () => {
-        console.log(`Бот Запустился ${bot.user.username}`)
+    console.log(`Бот Запустился ${bot.user.username}`);
 });
 
 // Проверка сообщений

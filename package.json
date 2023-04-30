@@ -1,0 +1,26 @@
+{
+  "name": "ghan-yui",
+  "version": "1.0.0",
+  "description": "Discord bot ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClEXGD/ghan-yui.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "ClEXGD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClEXGD/ghan-yui/issues"
+  },
+  "homepage": "https://github.com/ClEXGD/ghan-yui#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0"
+  }
+}

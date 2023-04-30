@@ -1,4 +1,18 @@
-# About
+# Documentation
 
-Main File:
-[ClEXGD/Bot.js](https://github.com/ClEXGD/ghan-yui/blob/main/Bot.js)
+Bot start:
+
++ Put your token in `config.json`
+
++ Put this in cmd line
+```shell
+npm i
+npm start
+```
+
+# Credits
+
+![Author](https://github.com/ClEXGD)
+![Contributor](https://github.com/crelgd)
+
+`v1.0.0`

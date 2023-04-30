@@ -12,7 +12,7 @@ const bot = new Client({
 });
 
 // Импорт префикса и токена
-let { prefix, token }= require('./botconfig.json');
+let { prefix, token }= require('./config.json');
 
 // Если бот запущен ...
 bot.on('ready', () => {
@@ -20,7 +20,7 @@ bot.on('ready', () => {
 });
 
 // Проверка сообщений
-bot.on('mesage', msg => {
+bot.on('message', msg => {
     // Если сообщение содержит "ping" ...
     if (msg.content === 'ping') {
         msg.reply('Pong!');
